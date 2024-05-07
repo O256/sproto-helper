@@ -3,7 +3,8 @@
   "displayName": "SprotoHelper",
   "description": "Help sproto development",
   "publisher": "Oliver256",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "icon": "images/sproto.png",
   "engines": {
     "vscode": "^1.89.0"
   },
