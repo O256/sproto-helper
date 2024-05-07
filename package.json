@@ -1,0 +1,35 @@
+{
+  "name": "sproto-helper",
+  "displayName": "Sproto helper",
+  "description": "Help sproto development",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "sproto",
+        "aliases": [
+          "sproto",
+          "sproto"
+        ],
+        "extensions": [
+          ".sproto"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sproto",
+        "scopeName": "source.sproto",
+        "path": "./syntaxes/sproto.tmLanguage"
+      }
+    ],
+    "themes": []
+  }
+}
